@@ -1,0 +1,14 @@
+<!-- Sidebar -->
+<div class="bg-light border-right" id="sidebar-wrapper">
+    <div class="sidebar-heading">Product Categories</div>
+    <div class="list-group list-group-flush">
+        <!-- 
+            Add the RouterLink and RouterLinkActive Directives
+             <a href="#" [title]="category.description" class="list-group-item list-group-item-action bg-light" *ngFor="let category of categories">{{ category.name }}</a>
+         -->
+        <a [routerLink]="['/categories', category.id]" routerLinkActive="highlight" [title]="category.description"
+            class="list-group-item list-group-item-action bg-light" *ngFor="let category of categories">{{ category.name
+            }}</a>
+    </div>
+</div>
+<!-- /#sidebar-wrapper -->

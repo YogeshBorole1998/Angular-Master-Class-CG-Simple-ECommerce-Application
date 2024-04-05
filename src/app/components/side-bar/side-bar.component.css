@@ -1,0 +1,31 @@
+/** Simple Sidebar CSS Code goes here **/
+
+
+#wrapper {
+    display: block;
+}
+
+#sidebar-wrapper {
+    float: left;
+    min-height: 100vh;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+.sidebar-heading {
+    background-color: rgb(76, 76, 211);
+    color: white;
+    font-weight: bold;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+.highlight {
+    font-weight: bold;
+    color: maroon;
+}

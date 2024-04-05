@@ -1,0 +1,32 @@
+<div id="page-content-wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <h4>&nbsp;&nbsp;{{ product?.productName + " product details"}}</h4>
+    </nav>
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <img [src]="product?.imageFileUrl" class="img-fluid" [alt]="product?.productName">
+        </div>
+        <div class="col-md-6">
+            <table class="table">
+                <tr>
+                    <td>
+                        <blockquote class="blockquote text-justify">
+                            <p class="mb-0">{{ product?.description }}</p>
+                        </blockquote>
+                    </td>
+                </tr>
+                <hr>
+                <tr>
+                    <td><strong> Price : </strong><span>{{ product?.price | currency:'INR' }}</span></td>
+                </tr>
+                <hr>
+                <tr>
+                    <td>
+                        <button *ngIf="product" type="button" class="btn btn-primary" (click)="addToCart(product)">Add
+                            to cart</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
