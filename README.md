@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
+## Demo Project : 
+- Live Project : Please see the Video : [Download Demo Video](./Angular-Masterclass.mp4) 
+- Completed As per Task-Documentation: Refer [Download PDF](./Participant%20Guide%202.pdf)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
